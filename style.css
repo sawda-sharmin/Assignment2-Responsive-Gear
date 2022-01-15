@@ -22,7 +22,7 @@ section{
     padding-left: 8%;
 }
 .half-width img{
-    width: 95%;
+    width: 85%;
 }
 .btn{
     border-radius: 35px;
@@ -91,4 +91,30 @@ section{
     font-size: 15px;
     margin: 4px 2px;
    background-color: rgb(119, 9, 23);
+}
+footer{
+    text-align: center;
+    color: white;
+    height: 250px;
+    margin: 25px auto;
+    background-color: rgb(13, 13, 128);
+}
+
+/*------- Media Queries -------*/
+
+/*------mobile devices------*/
+@media only screen and(max-width:688px) {
+    .container{
+        width: 100%;
+        grid-template-columns: repeat(1,1fr);
+        flex-direction: column;
+    }
+}
+
+/*------Tablet devices------*/
+@media only screen and(min-width:688px) and(max-width:992px) {
+.container{
+    width: 100%;
+    grid-template-columns: repeat(2,1fr);
+}
 }

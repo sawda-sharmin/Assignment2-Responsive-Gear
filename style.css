@@ -33,3 +33,32 @@ section{
     margin: 4px 2px;
    background-color: crimson;
 }
+.section-title{
+    text-align: center;
+    color: rgb(63, 53, 53);
+    font-size: 30px;
+    padding-top: 10%;
+}
+/*---collections styles----*/
+
+.collections{
+    display: grid;
+    padding-top: 20px;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 30px;
+    padding-left: 12%;
+}
+.currency-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fa-star{
+    font-size: 10px;
+}
+.fa-star.filled{
+    color: #FFC014;
+}
+.fa-star.empty{
+    color: #AEAEAE;
+}

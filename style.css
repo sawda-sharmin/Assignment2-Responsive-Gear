@@ -1,0 +1,35 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+
+}
+h2{
+    font-size: 20px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+h1{
+    font-size: 50px;
+}
+p{
+    font-size: 18px;
+    font-weight: 200;
+}
+section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    color: rgb(54, 52, 34);
+    padding-left: 8%;
+}
+.half-width img{
+    width: 80%;
+}
+.btn{
+    border-radius: 35px;
+    color: darkgrey;
+    padding: 16px 32px;
+    font-size: 15px;
+    margin: 4px 2px;
+   background-color: crimson;
+}

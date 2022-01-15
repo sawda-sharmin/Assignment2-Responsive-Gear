@@ -1,6 +1,5 @@
 body{
     font-family: 'Ubuntu', sans-serif;
-
 }
 h2{
     font-size: 20px;
@@ -23,7 +22,7 @@ section{
     padding-left: 8%;
 }
 .half-width img{
-    width: 80%;
+    width: 95%;
 }
 .btn{
     border-radius: 35px;
@@ -46,12 +45,21 @@ section{
     padding-top: 20px;
     grid-template-columns: repeat(3,1fr);
     grid-column-gap: 30px;
+    grid-row-gap: 30px;
     padding-left: 12%;
+    
+    }
+.collection{
+    padding-bottom: 20px;    
+        box-shadow: 5px 5px 15px gainsboro;
+    
 }
 .currency-info{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    font-weight: 100;
+    color: rgb(100, 72, 72);
 }
 .fa-star{
     font-size: 10px;
@@ -61,4 +69,26 @@ section{
 }
 .fa-star.empty{
     color: #AEAEAE;
+}
+.more-item{
+    text-align: center;
+    font-size: 15px;
+    color: rgb(161, 18, 61);
+}
+.navyblue{
+    font-size: 30px;
+    color: rgb(7, 7, 167);
+}
+.final-section{
+    display: flex;
+    padding-top: 10%;
+    padding-left:10%;
+    padding-right: 15%;
+}
+.btn1{
+    color: darkgrey;
+    padding: 16px 32px;
+    font-size: 15px;
+    margin: 4px 2px;
+   background-color: rgb(119, 9, 23);
 }
